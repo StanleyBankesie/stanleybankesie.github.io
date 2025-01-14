@@ -474,7 +474,7 @@ button {
 }
 
 .carousel-item {
-    height: 42rem;
+    height: 100%;
     width: 100%;
 }
 
@@ -493,7 +493,7 @@ button {
     color: #101010;
     padding: 5px 0 55px 0;
     line-height: 30px;
-    bottom: 100rem;
+
     
     
 
@@ -505,12 +505,10 @@ button {
 
 .agency figure {
     margin: 0;
-    bottom: rem;
 }
 
 .agency figure img {
     filter: drop-shadow(4px 6px 5px #0d03034f);
-    bottom: 6rem;
 }
 
 .play_icon {
