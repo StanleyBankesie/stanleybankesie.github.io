@@ -263,7 +263,29 @@ button {
     background: #fdc001;
     color: #fff;
 }
+.linkedin{
 
+        font-size: 16px;
+        background: #363636;
+        max-width: 204px;
+        width: 100%;
+        transition: ease-in all 0.5s;
+        color: #fff;
+        display: block;
+        height: 61px;
+        line-height: 61px;
+        text-align: center;
+        border-radius: 30px;
+        text-transform: uppercase;
+        font-weight: bold;
+        bottom: 5px;
+    
+    
+}
+.linkedin:hover {
+    background: #fdc001;
+    color: #fff;
+}
 .text_align_left {
     text-align: left;
 }
@@ -452,7 +474,7 @@ button {
 }
 
 .carousel-item {
-    height: 100%;
+    height: 42rem;
     width: 100%;
 }
 
@@ -469,13 +491,12 @@ button {
 
 .creative p {
     color: #101010;
-    padding: 30px 0 55px 0;
+    padding: 5px 0 55px 0;
     line-height: 30px;
-}
+    bottom: 100rem;
+    
+    
 
-.creative .read_more {
-    display: inline-block;
-    margin-right: 5px;
 }
 
 .mar_right {
@@ -484,10 +505,12 @@ button {
 
 .agency figure {
     margin: 0;
+    bottom: rem;
 }
 
 .agency figure img {
     filter: drop-shadow(4px 6px 5px #0d03034f);
+    bottom: 6rem;
 }
 
 .play_icon {
@@ -817,9 +840,10 @@ button {
 
 .latest {
     background: #fff;
-    padding: 10px;
+    padding: 20px;
     box-shadow: 0 0 69px rgba(13, 3, 3, 0.06);
     margin-bottom: 55px;
+    display: flex;
 }
 
 .latest figure {
@@ -1021,10 +1045,13 @@ button {
 /** footer **/
 
 .footer {
-    margin-top: 90px;
-    padding-top: 90px;
+    margin-top: 5px;
+    padding-top: 30px;
     background: #2d2d2d;
     text-align: center;
+    display: inli;
+    flex-basis: 20rem;
+    bottom: 200px;
 }
 
 .logo_footer {
@@ -1148,9 +1175,9 @@ ul.top_infomation li a:hover {
 }
 
 .copyright {
-    margin-top: 90px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    margin-top: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     background: #fefefd;
 }
 
