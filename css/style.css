@@ -286,6 +286,8 @@ button {
     background: #fdc001;
     color: #fff;
 }
+
+
 .text_align_left {
     text-align: left;
 }
@@ -302,7 +304,9 @@ button {
     max-width: 100%;
 }
 
-
+.front1{
+    bottom: 15rem;
+}
 /**-- heading section --**/
 
 
@@ -711,7 +715,9 @@ button {
 .services_box figure img {
     transition: ease-in all 0.5s;
 }
-
+.services_box figure .clock{
+    margin-top: 30px;
+}
 .services_box h3 {
     color: #363636;
     font-size: 24px;
@@ -724,6 +730,26 @@ button {
     line-height: 30px;
     padding-top: 23px;
     padding-bottom: 30px;
+}
+
+.services_box .front1{
+    line-height: 30px;
+    padding-top: 23px;
+    padding-bottom: 18rem;
+}
+
+.services_box .front2{
+    padding-bottom: 17rem;
+}
+
+.services_box .etl{
+    padding-bottom: 3.3rem; 
+}
+.services_box .uber{
+    padding-bottom: 5.2rem;
+}
+.services_box .moh{
+    padding-bottom: 3.7rem;
 }
 
 #ho_shad:hover.services_box figure img {
